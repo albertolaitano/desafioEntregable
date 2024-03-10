@@ -24,4 +24,10 @@ gestorDeUsuarios.create({
     password: "asd1234"
 })
 
+gestorDeUsuarios.create({
+    photo: "photo2.png",
+    email: "toto@gmail.com",
+    password: "toto1234"
+})
+
 console.log(gestorDeUsuarios.read());
