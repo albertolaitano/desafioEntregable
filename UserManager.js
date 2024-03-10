@@ -19,7 +19,7 @@ class UserManager {
 
 const gestorDeUsuarios = new UserManager();
 gestorDeUsuarios.create({
-    photo: "photo.png",
+    photo: "photo1.png",
     email: "asd@gmail.com",
     password: "asd1234"
 })
