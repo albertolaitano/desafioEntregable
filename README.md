@@ -58,3 +58,25 @@ console.log(gestorDeProductos.read());
 
 Finalmente, se imprime en la consola la lista de productos gestionados por gestorDeProductos utilizando el método read().
 Este README proporciona una visión general del código y explica cómo se utiliza la clase ProductManager para gestionar productos.
+
+
+
+Gestor de Usuarios
+Este repositorio presenta un gestor de usuarios desarrollado en JavaScript, proporcionando funcionalidades para la creación y lectura de usuarios mediante la clase UserManager.
+
+Funcionalidades
+Crear Usuario: El método create permite la creación de usuarios con datos como foto, correo electrónico y contraseña, asignándoles un ID único automáticamente.
+
+Leer Usuarios: El método read devuelve una lista de todos los usuarios existentes.
+
+Implementación
+Clase UserManager: Encargada de gestionar la creación y lectura de usuarios.
+
+Atributo Privado #users: Utiliza un atributo estático privado #users para almacenar todos los usuarios creados, asegurando su encapsulamiento dentro de la clase.
+
+Método create: Crea un nuevo usuario con un ID único basado en el último ID existente o 1 si es el primer usuario, y lo agrega a la lista de usuarios.
+
+Método read: Devuelve la lista de todos los usuarios almacenados en el gestor.
+
+Uso
+Para emplear el gestor de usuarios, simplemente se instancia un objeto de la clase UserManager. Luego, se pueden crear usuarios utilizando el método create, proporcionando los datos necesarios. Para visualizar todos los usuarios almacenados, se utiliza el método read.
